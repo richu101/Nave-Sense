@@ -18,23 +18,23 @@ right    = 17
 
 
 while True:
-    a = input("Enter the Direction")
+    a = input("Enter the Direction- ")
     
     if a == 'fw':
         for i in range(3):
             toggle(forward)
-        print("forward")
+        print("forward ")
     if a == 'bk':
         for i in range(3):
             toggle(backward)
-        print("backward")
+        print("backward ")
     if a == 'lt':
         for i in range(3):
             toggle(left)
-        print("left")
+        print("left ")
     if a == 'rt':
         for i in range(3):
             toggle(right)
-        print("right")            
+        print("right ")            
     if a == 'q':
         break
